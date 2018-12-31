@@ -9,6 +9,7 @@ class Misc:
     def __init__(self, bot):
         self.bot = bot
 
+    # List servers
     @commands.command()
     @commands.is_owner()
     async def servers(self, ctx):
